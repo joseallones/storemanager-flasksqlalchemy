@@ -35,7 +35,7 @@ python generate_data.py
 Los ficheros .csvs se almacenan en la carpeta csvs
 
 
-### Crear esquema de la base de datos
+### Crear el esquema de la base de datos
 Abrir una terminal desde la raíz del proyecto y lanzar los siguientes comandos:
 
 ```	
