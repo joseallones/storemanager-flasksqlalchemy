@@ -43,3 +43,21 @@ flask --app flask-crud-app/storemanager.py shell
 db.create_all()
 exit()
 ```
+
+
+### Arrancar la aplicación
+
+```	
+python flask-crud-app/storemanager.py 
+```
+
+
+
+### Lanzar load_data.py para cargar los datos generados con la API
+
+La aplicación debe estar corriendo (ver paso previo).
+En otra terminal lanzar el script con el siguiente comando:
+
+```	
+python load_data.py
+```	
