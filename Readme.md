@@ -7,7 +7,7 @@
 git clone url_repo
 ```
 
-### Cambiar el directorio de trabajo actual al repositorio
+### Cambiar el directorio de trabajo actual a la ruta raíz del repositorio
 ``` 
 cd path_local_repositorio
 ``` 
@@ -35,3 +35,11 @@ python generate_data.py
 Los ficheros .csvs se almacenan en la carpeta csvs
 
 
+### Crear esquema de la base de datos
+Abrir una terminal desde la raíz del proyecto y lanzar los siguientes comandos:
+
+```	
+flask --app flask-crud-app/storemanager.py shell
+db.create_all()
+exit()
+```

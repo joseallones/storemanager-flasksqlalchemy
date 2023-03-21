@@ -1,3 +1,5 @@
 .venv
 .venv/
 .idea/
+store.db
+flask-crud-app/store.db
