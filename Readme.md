@@ -1,15 +1,16 @@
 
+## Instalación
 
-
+Abrir una terminal y seguir los siguientes pasos:
 
 ### Clonar el repositorio
 ``` 
-git clone url_repo
+git clone https://github.com/joseallones/storemanager-flasksqlalchemy.git
 ```
 
-### Cambiar el directorio de trabajo actual a la ruta raíz del repositorio
+### Cambiar el directorio de trabajo actual a la ruta raíz del repositorio:
 ``` 
-cd path_local_repositorio
+cd storemanager-flasksqlalchemy
 ``` 
 
 ### Crear entorno virtual
@@ -36,7 +37,6 @@ Los ficheros .csvs se almacenan en la carpeta csvs
 
 
 ### Crear el esquema de la base de datos
-Abrir una terminal desde la raíz del proyecto y lanzar los siguientes comandos:
 
 ```	
 flask --app flask-crud-app/storemanager.py shell
@@ -56,8 +56,10 @@ python flask-crud-app/storemanager.py
 ### Lanzar load_data.py para cargar los datos generados con la API
 
 La aplicación debe estar corriendo (ver paso previo).
-En otra terminal lanzar el script con el siguiente comando:
 
-```	
+Abrir una terminal adicional, activar el entorno virtual y lanzar el script de carga con el siguiente comando:
+
+```
+source .venv/bin/activate
 python load_data.py
 ```	
